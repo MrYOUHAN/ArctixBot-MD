@@ -2,7 +2,7 @@ import { promises } from 'fs'
 import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
 let tags = {
-  'main': '𝘽𝙀𝙇𝙇𝘼 𝙈𝙐𝙃𝘼𝙈𝙀𝘿 𝘽𝙊𝙏',
+  'main': '𝐷𝛯𝛥𝐷-𝐶𝑈𝑆𝑇𝛩𝛭𝛯𝑅-19',
   'game': '𝙂𝘼𝙈𝙀𝙎',
   'rpg': '𝗥𝗣𝗚 𝗚𝗔𝗠𝗘𝗦',
   'xp': '𝗫𝗣 & 𝗟𝗜𝗠𝗜𝗧',
@@ -23,8 +23,8 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─━━━❰ 𝙈𝙐𝙃𝘼𝙈𝙈𝙀𝘿 𝘽𝙀𝙇𝙇𝘼  ❱
-┃ 𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈 @𝙒𝙊𝙓_𝘽𝙀𝙇𝙇𝘼
+╭─━━━❰ 𝐷𝛯𝛥𝐷-𝐶𝑈𝑆𝑇𝛩𝛭𝛯𝑅-19  ❱
+┃ 𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈 @mr_johan_shezir
 ┖━━━━━━━━━━━━━━━⦂
 
 ╭━━━━❰ 𝗨𝗦𝗘𝗥 ❱
@@ -41,10 +41,10 @@ const defaultMenu = {
 ┗━━━━━━━━━━━━━━━━⦂
 %readmore`.trimStart(),
   header: '╭━━━❰ %category ❱',
-  body: '┃ 🍑 %cmd %islimit %isPremium',
+  body: '┃ --->> %cmd %islimit %isPremium',
   footer: '╰━━━━━━━⦂\n',
   after: `
-𝙈𝙐𝙃𝘼𝙈𝙈𝙀𝘿 𝘽𝙀𝙇𝙇𝘼 | @𝙬𝙤𝙭_𝙗𝙚𝙡𝙡𝙖 
+𝐷𝛯𝛥𝐷-𝐶𝑈𝑆𝑇𝛩𝛭𝛯𝑅-19 | @mr_johan_shezir 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -146,7 +146,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     const pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch(_ => './media/arctix.jpg')
-    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://www.instagram.com/wox_bella', 'أنستغرام', owner[0][0], 'OWNER', [
+    conn.sendHydrated(m.chat, text.trim(), author, pp, 'http://instagram.com/mr_johan_shezir?utm_source=qr/sou6av', 'أنستغرام', owner[0][0], 'OWNER', [
       ['BOTGROUP', '/donasi'],
       ['SC', '/sc'],
       ['OWNER', '/owner']
