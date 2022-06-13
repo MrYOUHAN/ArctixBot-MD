@@ -1,5 +1,5 @@
 let handler = (t) => {
-    t.reply('*https://github.com/mohamedbella2000/ArctixBot-MD* | ig : *instagram.com/wox_bella')
+    t.reply('*https://github.com/MR19JOHAN/ArctixBot-MD* | ig : *instagram.com/mr_johan_shezir')
 }
 
 handler.command = ['sc']
