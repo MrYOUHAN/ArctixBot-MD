@@ -41,7 +41,7 @@ const defaultMenu = {
 ┗━━━━━━━━━━━━━━━━⦂
 %readmore`.trimStart(),
   header: '╭━━━❰ %category ❱',
-  body: '┃ ---} %cmd %islimit %isPremium',
+  body: '┃ ﷽ %cmd %islimit %isPremium',
   footer: '╰━━━━━━━⦂\n',
   after: `
 𝗠𝙍 𝗬𝗢𝗨𝗖𝗛𝗡 | @mr_johan_shezir 
