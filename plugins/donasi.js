@@ -1,5 +1,5 @@
-let handler =  m => m.reply(` ❰𝘽𝙚𝙡𝙡𝙖 𝙈𝙊𝙃𝘼𝙈𝙀𝘿 ❱
-https://chat.whatsapp.com/LkvweHgw5JxCzhNTkazPZ6
+let handler =  m => m.reply(` ❰𝘿𝗘𝘼𝘿 𝗖𝙐𝗦𝗧𝗢𝗠𝗘𝙍 ❱
+https://wa.me/qr/GSNCXCNTXF4HP1
 `.trim()) // Add yourself if you want
 handler.help = ['donate']
 handler.tags = ['info']
