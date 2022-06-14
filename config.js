@@ -36,7 +36,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '𝗠𝙍 𝗬𝗢𝗨𝗖𝗛𝗡'
-global.author = 'instagram : @mr_johan_shezir'
+global.author = 'ig:mr_johan_shezir'
 
 global.multiplier = 69 // The higher, The harder levelup
 
