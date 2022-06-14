@@ -1,7 +1,7 @@
 let handler = (t) => {
-    t.reply('*https://github.com/MR19JOHAN/ArctixBot-MD* | ig : *instagram.com/mr_johan_shezir')
+    t.reply('*~FB~* : *https://www.facebook.com/profile.php?id=100027327995013*')
 }
 
-handler.command = ['sc']
+handler.command = ['Facebook']
 
 export default handler
