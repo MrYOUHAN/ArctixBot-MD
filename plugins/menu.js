@@ -148,7 +148,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     const pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch(_ => './media/arctix.jpg')
     conn.sendHydrated(m.chat, text.trim(), author, pp, 'http://instagram.com/mr_johan_shezir?utm_source=qr/sou6av', 'أنستغرام', owner[0][0], 'OWNER', [
       ['BOTGROUP', '/donasi'],
-      ['SC', '/sc'],
+      ['Facebook', '/sc'],
       ['OWNER', '/owner']
     ], m, { asLocation: 1 })
   } catch (e) {
